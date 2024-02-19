@@ -4,6 +4,10 @@ namespace Vortex.Communications.Spryng;
 
 public class SpryngApiOptions
 {
+    public SpryngApiOptions()
+    {
+    }
+    
     public SpryngApiOptions(string token)
     {
         Token = token;
